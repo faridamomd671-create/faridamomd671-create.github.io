@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" font-family="Arial,Helvetica,sans-serif">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#050b18"/><stop offset="1" stop-color="#0b1830"/></linearGradient>
+<pattern id="gr" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.05"/></pattern>
+</defs>
+<rect width="800" height="460" fill="url(#bg)"/>
+<rect width="800" height="460" fill="url(#gr)"/>
+<g opacity="0.9"><rect x="470" y="230" width="44" height="150" rx="8" fill="#f6c177" opacity="0.45"/><rect x="534" y="190" width="44" height="190" rx="8" fill="#f6c177" opacity="0.65"/><rect x="598" y="150" width="44" height="230" rx="8" fill="#f6c177" opacity="0.85"/><rect x="662" y="110" width="44" height="270" rx="8" fill="#f6c177"/></g>
+<rect x="60" y="70" width="60" height="5" rx="2.5" fill="#f6c177"/>
+<text x="60" y="120" fill="#8da2c4" font-size="15" letter-spacing="4" font-weight="600">DATA ANALYTICS</text>
+<text x="58" y="200" fill="#eef4ff" font-size="52" font-weight="800">Porsche 911</text>
+<text x="58" y="262" fill="#eef4ff" font-size="52" font-weight="800">Dashboard</text>
+<text x="60" y="320" fill="#f6c177" font-size="20" font-weight="700">50 models · 60+ attributes</text>
+</svg>

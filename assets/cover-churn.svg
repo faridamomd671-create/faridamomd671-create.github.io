@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" font-family="Arial,Helvetica,sans-serif">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#050b18"/><stop offset="1" stop-color="#0b1830"/></linearGradient>
+<pattern id="gr" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.05"/></pattern>
+</defs>
+<rect width="800" height="460" fill="url(#bg)"/>
+<rect width="800" height="460" fill="url(#gr)"/>
+<path d="M440 140 C520 180 570 220 630 250 S720 290 760 300" fill="none" stroke="#7d8dff" stroke-width="6" stroke-linecap="round"/><path d="M440 140 C520 180 570 220 630 250 S720 290 760 300 L760 380 L440 380Z" fill="#7d8dff" opacity="0.08"/><g fill="#7d8dff" opacity="0.5"><circle cx="520" cy="180" r="7"/><circle cx="630" cy="250" r="7"/><circle cx="720" cy="290" r="7"/></g>
+<rect x="60" y="70" width="60" height="5" rx="2.5" fill="#7d8dff"/>
+<text x="60" y="120" fill="#8da2c4" font-size="15" letter-spacing="4" font-weight="600">DATA SCIENCE</text>
+<text x="58" y="200" fill="#eef4ff" font-size="52" font-weight="800">Telecom Churn</text>
+<text x="58" y="262" fill="#eef4ff" font-size="52" font-weight="800">Prediction</text>
+<text x="60" y="320" fill="#7d8dff" font-size="20" font-weight="700">XGBoost · GCI World 2026</text>
+</svg>

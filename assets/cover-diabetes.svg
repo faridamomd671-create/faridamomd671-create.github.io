@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" font-family="Arial,Helvetica,sans-serif">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#050b18"/><stop offset="1" stop-color="#0b1830"/></linearGradient>
+<pattern id="gr" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.05"/></pattern>
+</defs>
+<rect width="800" height="460" fill="url(#bg)"/>
+<rect width="800" height="460" fill="url(#gr)"/>
+<path d="M430 380 C450 200 520 140 740 110" fill="none" stroke="#00d9ff" stroke-width="6" stroke-linecap="round" opacity="0.85"/><path d="M430 380 C450 200 520 140 740 110 L740 380Z" fill="#00d9ff" opacity="0.08"/><line x1="430" y1="380" x2="740" y2="110" stroke="#ffffff" stroke-opacity="0.18" stroke-dasharray="8 8" stroke-width="3"/>
+<rect x="60" y="70" width="60" height="5" rx="2.5" fill="#00d9ff"/>
+<text x="60" y="120" fill="#8da2c4" font-size="15" letter-spacing="4" font-weight="600">MACHINE LEARNING</text>
+<text x="58" y="200" fill="#eef4ff" font-size="52" font-weight="800">Diabetes Risk</text>
+<text x="58" y="262" fill="#eef4ff" font-size="52" font-weight="800">Prediction</text>
+<text x="60" y="320" fill="#00d9ff" font-size="20" font-weight="700">Compare · Evaluate · Deploy</text>
+</svg>
