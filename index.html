@@ -7,7 +7,7 @@
 <meta name="description" content="Artificial Intelligence student at Sphinx University building machine learning pipelines, computer vision and Generative AI projects. Open to internships.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Instrument+Serif:ital@1&family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
 <style>
 :root{
   --bg:#04060c; --bg2:#070b14; --panel:rgba(255,255,255,.028); --line:rgba(255,255,255,.08);
@@ -254,12 +254,162 @@ footer .grotesk b{color:var(--mut)}
   .hero{padding-bottom:80px}
   .scrollcue{display:none}
 }
+
+/* ================= PREMIUM RESKIN: obsidian + champagne gold ================= */
+:root{--bg:#050510;--bg2:#0a0a18;--panel:rgba(235,232,255,.026);--line:rgba(170,160,255,.11);
+  --txt:#efeefb;--mut:#a09fb8;--dim:#666480;--cy:#8b7cff;--vi:#5b4fe0;--gd:#b9b0ff;
+  --grad:linear-gradient(105deg,#c9c2ff,#8b7cff 55%,#5b4fe0);--r:20px}
+::selection{background:rgba(139,124,255,.3)}
+::-webkit-scrollbar-thumb{background:#251f4a}
+body{font-feature-settings:"ss01","cv11";letter-spacing:.005em}
+.aurora{background:radial-gradient(1100px 620px at 82% -12%,rgba(139,124,255,.10),transparent 62%),
+  radial-gradient(900px 520px at -8% 30%,rgba(91,79,224,.08),transparent 58%),var(--bg)}
+.aurora i:nth-child(1){background:radial-gradient(circle,rgba(139,124,255,.10),transparent 65%)}
+.aurora i:nth-child(2){background:radial-gradient(circle,rgba(91,79,224,.12),transparent 65%)}
+.aurora i:nth-child(3){background:radial-gradient(circle,rgba(185,176,255,.05),transparent 65%)}
+.aurora i{opacity:.35}
+.gridlines{opacity:.28}
+#cursor{background:radial-gradient(circle,rgba(139,124,255,.05),transparent 60%)}
+nav{background:linear-gradient(rgba(5,5,16,.82),rgba(5,5,16,.4))}
+.logo b{background:transparent;border:1px solid rgba(139,124,255,.55);color:var(--gd);font-family:'Cormorant Garamond',serif;font-size:19px;border-radius:50%}
+.logo span{font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:600;letter-spacing:.04em}
+.navlinks{font-size:12.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:500}
+.cta{background:transparent;color:var(--gd);border:1px solid rgba(139,124,255,.5);font-size:12px;letter-spacing:.16em;text-transform:uppercase}
+.cta:hover{background:var(--gd);color:#0a0820;box-shadow:0 10px 36px rgba(139,124,255,.22)}
+.kicker{color:var(--gd);border-color:rgba(139,124,255,.3);background:rgba(139,124,255,.05);letter-spacing:.3em}
+h1{font-family:'Cormorant Garamond',serif;font-weight:600;letter-spacing:-.015em;line-height:.94;font-size:clamp(54px,8.4vw,128px)}
+h1 .ghost{-webkit-text-stroke:1px rgba(241,236,225,.55);font-weight:500}
+h1 .serif{font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:500;font-size:1em}
+.serif{font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:500}
+.roles{font-family:'Plus Jakarta Sans';font-size:clamp(15px,1.5vw,18px);letter-spacing:.04em}
+.roles b{color:var(--gd);font-weight:600}
+.lede{font-size:16px;color:var(--mut);max-width:580px}
+.btn{font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;font-weight:600;padding:16px 30px}
+.btn-p{background:var(--grad);color:#0a0820}
+.btn-p:hover{box-shadow:0 16px 44px rgba(139,124,255,.28)}
+.btn-g:hover{border-color:rgba(139,124,255,.55)}
+.stats b{font-family:'Cormorant Garamond',serif;font-size:clamp(34px,3.6vw,52px);font-weight:600}
+.tag,.tagrow .tag{font-size:12px;font-weight:600;letter-spacing:.06em;background:rgba(235,232,255,.03)}
+.tag i{background:var(--cy);box-shadow:0 0 8px rgba(139,124,255,.6)}
+.tag.g i,.tag.v i{background:var(--gd);box-shadow:0 0 8px rgba(185,176,255,.5)}
+.scrollcue::after{background:linear-gradient(var(--cy),transparent)}
+.ticker{background:rgba(235,232,255,.012)}
+.ticker span{font-family:'Plus Jakarta Sans';font-size:13px;letter-spacing:.22em;font-weight:500}
+.ticker span::after{content:"◆";font-size:7px;color:var(--cy)}
+.snum{font-family:'Cormorant Garamond',serif;font-size:22px;font-style:italic;font-weight:500;letter-spacing:0}
+.shead h2{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:clamp(36px,5vw,68px);letter-spacing:-.01em;line-height:1.02}
+.shead h2 .serif{color:var(--gd);font-size:1em}
+.about-grid .big{font-size:clamp(18px,1.9vw,23px);font-weight:400;line-height:1.7}
+.about-grid .big em{background:linear-gradient(transparent 70%,rgba(139,124,255,.28) 70%)}
+.spec h3,.skcard h3{font-family:'Plus Jakarta Sans';letter-spacing:.24em;font-weight:700;color:var(--gd)}
+.spec li::before{content:"◆";font-size:8px;color:var(--cy);position:relative;top:-2px}
+.edu{background:linear-gradient(120deg,rgba(139,124,255,.06),rgba(235,232,255,.015));border-color:rgba(139,124,255,.16)}
+.edu h3,.xpi h3,.pcard h3,.cert h3{font-family:'Cormorant Garamond',serif;font-weight:600;letter-spacing:0}
+.edu h3{font-size:clamp(28px,3.2vw,42px)}
+.xpi h3{font-size:clamp(22px,2.2vw,28px)}
+.pcard h3{font-size:clamp(24px,2.4vw,32px)}
+.cert h3{font-size:18px;line-height:1.25}
+.edu .meta b{font-family:'Cormorant Garamond',serif;font-size:32px;font-weight:600}
+.xpi .when,.xpi .org{color:var(--gd);font-family:'Plus Jakarta Sans'}
+.xpi .when{font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.skcard:hover,.cert:hover,.pcard:hover,.btn-g:hover{border-color:rgba(139,124,255,.45)}
+.skcard h3::before{background:var(--grad)}
+.skcard .chips span:hover{background:rgba(139,124,255,.14);color:var(--gd)}
+.pcard .yr{color:var(--gd);font-family:'Plus Jakarta Sans';letter-spacing:.1em}
+.pcard .links .gh:hover{border-color:rgba(139,124,255,.55)}
+.pcard .links .lv{background:var(--grad);color:#0a0820}
+.pcard,.cert,.skcard,.spec{box-shadow:0 1px 0 rgba(235,232,255,.04) inset}
+.cert .cd b{color:var(--gd)}
+.contact h2{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:clamp(46px,7.4vw,108px);letter-spacing:-.015em;line-height:.98}
+.contact h2 .serif{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+footer .grotesk{font-family:'Plus Jakarta Sans'}
+h1,.shead h2,.stats b,.snum,.edu .meta b,.contact h2{font-variant-numeric:lining-nums}
+.hero{padding-bottom:130px}
+.logo b{font-size:15px}
+
+/* ===== FOUR TASTEFUL EFFECTS: scroll fade-slide, animated gradient name, 3D tilt+shine cards, particle network ===== */
+.aurora i,#cursor,.gridlines,.scrollcue{display:none!important}
+.aurora{background:radial-gradient(900px 520px at 85% -10%,rgba(139,124,255,.10),transparent 60%),var(--bg)!important}
+.kicker::before{animation:none!important}.roles b{border-right:0!important;padding-right:0!important;animation:none!important}
+.ticker .track{animation:none!important;width:auto;flex-wrap:wrap;justify-content:center;gap:14px 40px;padding:0 24px}
+.ticker .track span{gap:40px}
+#net{position:fixed;inset:0;width:100%;height:100%;z-index:-1;pointer-events:none}
+/* 1. scroll fade + slide (softer, staggered) */
+.reveal{opacity:0;transform:translateY(28px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1)}
+.reveal.in{opacity:1;transform:none}
+.pgrid .reveal:nth-child(2n),.certs .reveal:nth-child(3n+2),.skills-grid .reveal:nth-child(2n){transition-delay:.1s}
+.certs .reveal:nth-child(3n){transition-delay:.18s}
+/* 2. animated gradient on first name */
+h1 .serif{background:linear-gradient(100deg,#e4dfff 0%,#8b7cff 30%,#5b4fe0 50%,#8b7cff 70%,#e4dfff 100%);background-size:250% 100%;
+  -webkit-background-clip:text;background-clip:text;color:transparent;animation:namegrad 7s ease-in-out infinite alternate}
+@keyframes namegrad{from{background-position:0% 50%}to{background-position:100% 50%}}
+.contact h2 .serif,.shead h2 .serif{background-size:250% 100%}
+/* 3. 3D tilt + shine */
+.tilt{transform-style:preserve-3d;will-change:transform;transition:transform .25s ease-out,border-color .3s;position:relative}
+.tilt.hot{transition:transform .06s linear,border-color .3s}
+.tilt::after{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;opacity:0;transition:opacity .3s;
+  background:radial-gradient(circle at var(--mx,50%) var(--my,50%),rgba(220,214,255,.16),transparent 45%)}
+.tilt:hover::after{opacity:1}
+.pcard:hover,.cert:hover,.skcard:hover{transform:none}
+@media (prefers-reduced-motion:reduce){#net{display:none}h1 .serif{animation:none}.tilt{transform:none!important}}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+/* ===== timeline experience (violet) ===== */
+.tl{position:relative;display:flex;flex-direction:column;gap:clamp(26px,4vw,52px);padding:10px 0}
+.tl-line{position:absolute;left:50%;top:0;bottom:0;width:2px;transform:translateX(-50%);background:linear-gradient(180deg,transparent,rgba(139,124,255,.55) 8%,rgba(139,124,255,.55) 92%,transparent)}
+.tl-row{display:grid;grid-template-columns:1fr 0 1fr;gap:0 clamp(28px,4.5vw,68px);align-items:center;position:relative}
+.tl-row.r .xcard{grid-column:3;grid-row:1}.tl-row.r .xlogo{grid-column:1;grid-row:1}
+.tl-row.l .xcard{grid-column:1}.tl-row.l .xlogo{grid-column:3}
+.tl-dot{grid-column:2;grid-row:1;width:18px;height:18px;border-radius:50%;margin-left:-9px;background:radial-gradient(circle at 35% 35%,#e4dfff,#8b7cff 60%,#5b4fe0);box-shadow:0 0 0 6px rgba(139,124,255,.14),0 0 28px 6px rgba(139,124,255,.55);z-index:2;animation:dotp 3.2s ease-in-out infinite}
+@keyframes dotp{50%{box-shadow:0 0 0 10px rgba(139,124,255,.08),0 0 38px 10px rgba(139,124,255,.7)}}
+.xcard{position:relative;padding:clamp(22px,2.4vw,32px);border-radius:22px;background:linear-gradient(160deg,rgba(139,124,255,.07),rgba(255,255,255,.02));border:1px solid rgba(139,124,255,.28);box-shadow:0 0 0 1px rgba(139,124,255,.05),0 18px 60px -18px rgba(139,124,255,.35),inset 0 0 40px rgba(139,124,255,.04)}
+.xcard .xwhen{font-family:'Space Grotesk';font-size:12px;letter-spacing:.16em;font-weight:600;color:#a99dff}
+.xcard h3{font-family:'Space Grotesk';font-size:clamp(20px,2vw,25px);margin:10px 0 4px;color:#e4dfff}
+.xcard .org{color:#8b7cff;font-size:13.5px;font-weight:700;margin-bottom:12px}
+.xcard p{color:var(--mut);font-size:14.5px;line-height:1.7}
+.xtags{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}
+.xlogo{display:grid;place-items:center;min-height:300px;align-self:stretch;border-radius:22px;border:1px solid rgba(139,124,255,.22);background:radial-gradient(circle at 50% 50%,rgba(139,124,255,.16),rgba(255,255,255,.02) 70%);box-shadow:0 18px 60px -22px rgba(139,124,255,.4);padding:26px}
+.xlogo .plate{display:flex;gap:22px;align-items:center;justify-content:center;background:#fff;border-radius:18px;padding:20px 26px;box-shadow:0 0 50px rgba(139,124,255,.35)}
+.xlogo img{max-height:150px;max-width:250px;object-fit:contain}
+.xlogo .plate{width:100%;height:100%;min-height:210px}.xlogo .plate img:only-child{max-height:190px;max-width:90%}
+@media(max-width:820px){
+ .tl-line{left:14px}.tl-row{grid-template-columns:1fr;gap:14px;padding-left:40px}
+ .tl-row .xcard,.tl-row.r .xcard,.tl-row.l .xcard{grid-column:1;grid-row:2}.tl-row .xlogo,.tl-row.r .xlogo,.tl-row.l .xlogo{grid-column:1;grid-row:1;min-height:130px}
+ .tl-dot{position:absolute;left:5px;top:50%;grid-column:auto;margin:0}
+}
+.xlogo{padding:12px!important;min-height:300px}
+.xlogo .plate{border-radius:14px;padding:26px 30px;gap:30px;box-shadow:inset 0 0 0 1px rgba(139,124,255,.25),0 0 60px rgba(139,124,255,.4)}
+.xlogo .plate img{flex:1 1 0;min-width:0;max-width:100%;max-height:210px}
+.xlogo .plate img:only-child{max-height:230px;max-width:85%;flex:none}
+.xlogo .plate img{max-height:150px;object-fit:contain}
+.xlogo .plate img:only-child{max-height:160px;max-width:62%;flex:none}
+.xlogo .plate{min-height:0;height:100%}
+.xlogo .plate{background:transparent!important;box-shadow:none!important;border-radius:0}
+.xlogo{background:radial-gradient(ellipse at 50% 50%,rgba(139,124,255,.20),rgba(10,10,24,.9) 72%)!important}
+.xlogo img{filter:drop-shadow(0 0 18px rgba(139,124,255,.35))}
+.certs{grid-template-columns:repeat(3,1fr)!important}
+@media(max-width:900px){.certs{grid-template-columns:repeat(2,1fr)!important}}@media(max-width:560px){.certs{grid-template-columns:1fr!important}}
+.xlogo .plate img:only-child{max-height:150px}
+/* floating motion + glow hover */
+@keyframes bob{0%,100%{translate:0 0}50%{translate:0 -9px}}
+@keyframes bob2{0%,100%{translate:0 -4px}50%{translate:0 6px}}
+.xcard,.xlogo,.pcard,.cert,.skcard,.edu{animation:bob 6.5s ease-in-out infinite;transition:box-shadow .35s,border-color .35s,scale .35s,opacity .9s,transform .25s ease-out}
+.xlogo,.certs .cert:nth-child(even),.pgrid .pcard:nth-child(even),.skills-grid .skcard:nth-child(even){animation-name:bob2;animation-duration:7.5s}
+.tl-row:nth-child(3n) .xcard{animation-delay:-2s}.tl-row:nth-child(3n+1) .xlogo{animation-delay:-3s}
+.certs .cert:nth-child(3n){animation-delay:-1.5s}.certs .cert:nth-child(3n+1){animation-delay:-3.5s}
+.pcard:nth-child(2n){animation-delay:-2.5s}.skcard:nth-child(3n){animation-delay:-2s}
+.xcard:hover,.xlogo:hover,.pcard:hover,.cert:hover,.skcard:hover,.edu:hover{scale:1.025;border-color:rgba(167,152,255,.75)!important;box-shadow:0 0 0 1px rgba(167,152,255,.5),0 26px 80px -10px rgba(139,124,255,.65),0 0 60px rgba(139,124,255,.25)!important}
+@media (prefers-reduced-motion:reduce){.xcard,.xlogo,.pcard,.cert,.skcard,.edu{animation:none}}
+.xlogo .plate img[src$=".svg"]{width:52%;max-height:none;height:auto}
+.xlogo{padding:16px!important;background:radial-gradient(ellipse at 50% 50%,rgba(139,124,255,.22),rgba(10,10,24,.9) 75%)!important}
+.xlogo .plate{background:#f6f5fb!important;border-radius:16px!important;box-shadow:0 0 0 1px rgba(139,124,255,.35),0 0 50px rgba(139,124,255,.35)!important;padding:26px 30px;width:100%;height:100%}
+.xlogo .plate img{filter:none!important;mix-blend-mode:multiply}
+.xlogo .plate img:only-child{max-height:150px}
 </style>
 </head>
 <body>
 <div class="aurora"><i></i><i></i><i></i></div>
-<div class="gridlines"></div>
+<canvas id="net"></canvas>
 <div id="cursor"></div>
 
 <nav id="nav">
@@ -334,43 +484,33 @@ footer .grotesk b{color:var(--mut)}
 
 <section id="experience">
   <div class="shead reveal"><span class="snum">03</span><h2>Programs, labs and internships<br>that <em class="serif">shaped me.</em></h2></div>
-  <div class="xp">
-    <div class="xpi reveal">
-      <span class="when">SEP 2026</span>
-      <div class="logos"><div><img src="assets/img-02.png" alt="NTI"></div><div><img src="assets/img-03.png" alt="ESE"></div></div>
-      <div><h3>AI Ambassadors Program</h3><div class="org">NTI × Engineers for a Sustainable Egypt</div>
-      <p>Completed the Artificial Intelligence Ambassadors Program with the National Telecommunication Institute, under the Ministry of Communications and Information Technology.</p></div>
-      <div class="tags"><span class="tag">Artificial Intelligence</span><span class="tag">NTI</span></div>
-    </div>
-    <div class="xpi reveal">
-      <span class="when">AUG 2026</span>
-      <div class="logos"><div><img src="assets/img-04.png" alt="CIB"></div></div>
-      <div><h3>Generative AI Intern</h3><div class="org">CIB · Commercial International Bank</div>
-      <p>CIB Summer Internship Program 2026: banking fundamentals, Generative AI applications, and future-ready professional skills.</p></div>
-      <div class="tags"><span class="tag">Generative AI</span><span class="tag">Banking</span></div>
-    </div>
-    <div class="xpi reveal">
-      <span class="when">AUG 2026</span>
-      <div class="logos"><div><img src="assets/img-05.png" alt="Matsuo-Iwasawa Lab"></div></div>
-      <div><h3>Data Science Trainee, GCI World</h3><div class="org">Matsuo-Iwasawa Lab · University of Tokyo</div>
-      <p>Course on the fundamental theories and implementations of data science. Passed the final assessment with a telecom churn prediction pipeline (EDA, XGBoost, business impact modeling).</p></div>
-      <div class="tags"><span class="tag">Python</span><span class="tag">XGBoost</span><span class="tag">EDA</span></div>
-    </div>
-    <div class="xpi reveal">
-      <span class="when">JUL 2026</span>
-      <div class="logos"><div><img src="assets/img-06.png" alt="NTI"></div><div><img src="assets/img-07.png" alt="ITIDA"></div></div>
-      <div><h3>Machine Learning Trainee</h3><div class="org">NTI &amp; ITIDA</div>
-      <p>120-hour summer training (90 technical + 30 freelancing hours), final score 85%. ML concepts, data preprocessing, and Python implementation.</p></div>
-      <div class="tags"><span class="tag">Python</span><span class="tag">Machine Learning</span><span class="tag">Preprocessing</span></div>
-    </div>
-    <div class="xpi reveal">
-      <span class="when">2026</span>
-      <div class="logos"><div><img src="assets/img-08.png" alt="MCIT"></div></div>
-      <div><h3>Data Analysis Trainee</h3><div class="org">DEPI · Ministry of Communications and IT</div>
-      <p>Selected for the Digital Egypt Pioneers Initiative Data Analysis track: data cleaning, querying, and reporting.</p></div>
-      <div class="tags"><span class="tag">Excel</span><span class="tag">SQL</span></div>
-    </div>
+  <div class="tl"><div class="tl-line"></div>
+  <div class="tl-row l">
+    <article class="xcard reveal"><span class="xwhen">SEP 2026</span><h3>AI Ambassadors Program</h3><div class="org">NTI × Engineers for a Sustainable Egypt</div><p>Completed the Artificial Intelligence Ambassadors Program with the National Telecommunication Institute, under the Ministry of Communications and Information Technology.</p><div class="xtags"><span class="tag">Artificial Intelligence</span><span class="tag">NTI</span></div></article>
+    <span class="tl-dot"></span>
+    <div class="xlogo reveal"><div class="plate"><img src="assets/img-02.png" alt="NTI"><img src="assets/img-03.png" alt="ESE"></div></div>
   </div>
+  <div class="tl-row r">
+    <article class="xcard reveal"><span class="xwhen">AUG 2026</span><h3>Generative AI Intern</h3><div class="org">CIB · Commercial International Bank</div><p>CIB Summer Internship Program 2026: banking fundamentals, Generative AI applications, and future-ready professional skills.</p><div class="xtags"><span class="tag">Generative AI</span><span class="tag">Banking</span></div></article>
+    <span class="tl-dot"></span>
+    <div class="xlogo reveal"><div class="plate"><img src="assets/cib-logo.svg" alt="CIB"></div></div>
+  </div>
+  <div class="tl-row l">
+    <article class="xcard reveal"><span class="xwhen">AUG 2026</span><h3>Data Science Trainee, GCI World</h3><div class="org">Matsuo-Iwasawa Lab · University of Tokyo</div><p>Course on the fundamental theories and implementations of data science. Passed the final assessment with a telecom churn prediction pipeline (EDA, XGBoost, business impact modeling).</p><div class="xtags"><span class="tag">Python</span><span class="tag">XGBoost</span><span class="tag">EDA</span></div></article>
+    <span class="tl-dot"></span>
+    <div class="xlogo reveal"><div class="plate"><img src="assets/img-05.png" alt="Matsuo-Iwasawa Lab"></div></div>
+  </div>
+  <div class="tl-row r">
+    <article class="xcard reveal"><span class="xwhen">JUL 2026</span><h3>Machine Learning Trainee</h3><div class="org">NTI &amp; ITIDA</div><p>120-hour summer training (90 technical + 30 freelancing hours), final score 85%. ML concepts, data preprocessing, and Python implementation.</p><div class="xtags"><span class="tag">Python</span><span class="tag">Machine Learning</span><span class="tag">Preprocessing</span></div></article>
+    <span class="tl-dot"></span>
+    <div class="xlogo reveal"><div class="plate"><img src="assets/img-06.png" alt="NTI"><img src="assets/img-07.png" alt="ITIDA"></div></div>
+  </div>
+  <div class="tl-row l">
+    <article class="xcard reveal"><span class="xwhen">2026</span><h3>Data Analysis Trainee</h3><div class="org">DEPI · Ministry of Communications and IT</div><p>Selected for the Digital Egypt Pioneers Initiative Data Analysis track: data cleaning, querying, and reporting.</p><div class="xtags"><span class="tag">Excel</span><span class="tag">SQL</span></div></article>
+    <span class="tl-dot"></span>
+    <div class="xlogo reveal"><div class="plate"><img src="assets/img-08.png" alt="MCIT"></div></div>
+  </div>
+</div>
 </section>
 
 <section id="skills">
@@ -462,7 +602,7 @@ footer .grotesk b{color:var(--mut)}
 // role rotator
 const roles=['Machine Learning Engineer','Data Scientist','Computer Vision Builder','GenAI Developer','Data Analyst'];
 const roleEl=document.getElementById('role');let ri=0;
-setInterval(()=>{ri=(ri+1)%roles.length;roleEl.textContent=roles[ri]},2600);
+
 
 // reveal on scroll
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
@@ -474,10 +614,46 @@ addEventListener('scroll',()=>nav.classList.toggle('scrolled',scrollY>40),{passi
 
 // cursor glow
 const cur=document.getElementById('cursor');
-addEventListener('pointermove',e=>{cur.style.transform=`translate(${e.clientX-260}px,${e.clientY-260}px)`},{passive:true});
 
-// duplicate ticker for seamless loop
-const t=document.getElementById('ticker');t.innerHTML+=t.innerHTML;
+
+// (ticker kept static)
+//
+
+
+// fixed role
+roleEl.textContent='Machine Learning Engineer';
+// 3D tilt + shine
+document.querySelectorAll('.pcard,.cert,.skcard,.edu,.xcard,.xlogo').forEach(el=>{
+  el.classList.add('tilt');
+  el.addEventListener('pointermove',e=>{
+    const r=el.getBoundingClientRect(),x=(e.clientX-r.left)/r.width,y=(e.clientY-r.top)/r.height;
+    el.classList.add('hot');
+    el.style.transform=`perspective(900px) rotateX(${((.5-y)*7).toFixed(2)}deg) rotateY(${((x-.5)*9).toFixed(2)}deg) translateZ(0)`;
+    el.style.setProperty('--mx',x*100+'%');el.style.setProperty('--my',y*100+'%');
+  });
+  el.addEventListener('pointerleave',()=>{el.classList.remove('hot');el.style.transform=''});
+});
+// connected particles network
+(()=>{
+  const c=document.getElementById('net'),g=c.getContext('2d');let W,H,P=[];const D=Math.min(devicePixelRatio||1,2);
+  const mouse={x:-999,y:-999};
+  function size(){W=innerWidth;H=innerHeight;c.width=W*D;c.height=H*D;g.setTransform(D,0,0,D,0,0);
+    const n=Math.round(Math.min(90,W*H/16000));P=Array.from({length:n},()=>({x:Math.random()*W,y:Math.random()*H,vx:(Math.random()-.5)*.28,vy:(Math.random()-.5)*.28,r:Math.random()*1.3+.5}))}
+  addEventListener('resize',size);size();
+  addEventListener('pointermove',e=>{mouse.x=e.clientX;mouse.y=e.clientY},{passive:true});
+  const L=140;
+  function tick(){
+    g.clearRect(0,0,W,H);
+    for(const p of P){p.x+=p.vx;p.y+=p.vy;if(p.x<0||p.x>W)p.vx*=-1;if(p.y<0||p.y>H)p.vy*=-1}
+    for(let i=0;i<P.length;i++){const a=P[i];
+      for(let j=i+1;j<P.length;j++){const b=P[j],dx=a.x-b.x,dy=a.y-b.y,d=Math.hypot(dx,dy);
+        if(d<L){g.strokeStyle=`rgba(139,124,255,${(1-d/L)*.16})`;g.lineWidth=1;g.beginPath();g.moveTo(a.x,a.y);g.lineTo(b.x,b.y);g.stroke()}}
+      const dm=Math.hypot(a.x-mouse.x,a.y-mouse.y);
+      if(dm<170){g.strokeStyle=`rgba(185,176,255,${(1-dm/170)*.28})`;g.beginPath();g.moveTo(a.x,a.y);g.lineTo(mouse.x,mouse.y);g.stroke()}
+      g.fillStyle='rgba(185,176,255,.55)';g.beginPath();g.arc(a.x,a.y,a.r,0,6.283);g.fill()}
+    requestAnimationFrame(tick)}
+  if(!matchMedia('(prefers-reduced-motion:reduce)').matches)tick();
+})();
 </script>
 </body>
 </html>
