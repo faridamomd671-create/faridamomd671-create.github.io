@@ -62,7 +62,7 @@ nav.scrolled{border-color:var(--line)}
 .cta:hover{transform:translateY(-2px);box-shadow:0 8px 30px rgba(34,211,238,.25)}
 
 /* ---------- hero ---------- */
-.hero{min-height:100svh;display:grid;grid-template-columns:1.25fr .9fr;align-items:center;gap:clamp(24px,4vw,60px);
+.hero{min-height:100svh;display:grid;grid-template-columns:minmax(0,980px);justify-content:center;align-items:center;gap:clamp(24px,4vw,60px);
   padding:120px clamp(20px,5vw,64px) 40px;max-width:1440px;margin:0 auto;position:relative;z-index:1}
 .kicker{display:inline-flex;align-items:center;gap:10px;font-family:'Space Grotesk';font-size:12px;font-weight:600;
   letter-spacing:.28em;text-transform:uppercase;color:var(--cy);
@@ -93,6 +93,12 @@ h1 .serif{font-size:1.06em;background:var(--grad);-webkit-background-clip:text;b
 .stats b{display:block;font-family:'Space Grotesk';font-size:clamp(26px,3vw,38px);font-weight:700;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
 .stats span{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--dim);font-weight:600}
 
+.tagrow{display:flex;flex-wrap:wrap;gap:12px;margin-top:34px}
+.tag{display:inline-flex;align-items:center;gap:8px;font-size:12.5px;font-weight:700;background:rgba(10,15,26,.82);border:1px solid var(--line);padding:10px 16px;border-radius:100px}
+.tag i{width:8px;height:8px;border-radius:50%;background:var(--cy);box-shadow:0 0 10px var(--cy)}
+.tag.g i{background:var(--gd);box-shadow:0 0 10px var(--gd)}
+.tag.v i{background:var(--vi);box-shadow:0 0 10px var(--vi)}
+@media (max-width:1060px){.tagrow{justify-content:center}}
 /* photo */
 .portrait{position:relative;justify-self:center;animation:fadein 1.2s .3s both}
 @keyframes fadein{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
@@ -285,13 +291,7 @@ footer .grotesk b{color:var(--mut)}
       <div><b>10</b><span>Certificates</span></div>
       <div><b>5</b><span>Programs</span></div>
     </div>
-  </div>
-  <div class="portrait">
-    <div class="arch"><div class="inner"><img src="assets/img-01.jpg" alt="Farida Mohammed Abdelrahman"></div></div>
-    <span class="chip c1"><i></i>Machine Learning</span>
-    <span class="chip c2 v"><i></i>Computer Vision</span>
-    <span class="chip c3 g"><i></i>Generative AI</span>
-    <span class="chip c4"><i></i>Sphinx University · 2029</span>
+    <div class="tagrow"><span class="tag"><i></i>Machine Learning</span><span class="tag v"><i></i>Computer Vision</span><span class="tag g"><i></i>Generative AI</span><span class="tag"><i></i>Sphinx University · 2029</span></div>
   </div>
   <div class="scrollcue">Scroll</div>
 </header>
